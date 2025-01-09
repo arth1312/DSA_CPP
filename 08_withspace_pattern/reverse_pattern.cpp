@@ -19,10 +19,7 @@ int main()
         for(int end = n-1 ; end >= i ; end--) {
             cout<<end<<" ";
         }
-        
         cout<<endl;
-        
-        
     }
     return 0;
 }
