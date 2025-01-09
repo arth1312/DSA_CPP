@@ -13,6 +13,6 @@ int main()
    for(i = 0; i <= 4; i++)
    {
     cout << "Address is " << p[i];
-   }
+   } 
     return 0;
 }
