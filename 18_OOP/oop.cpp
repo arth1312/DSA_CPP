@@ -11,7 +11,6 @@ class Student
         char course[50];
         float persentage;
 };
-
 int main()
 {
     Student student1;
