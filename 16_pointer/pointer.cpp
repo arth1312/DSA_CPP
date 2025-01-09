@@ -7,4 +7,4 @@ int main()
    *p = &a;
    cout << "Address is ", p;
     return 0;
-} 
+}  

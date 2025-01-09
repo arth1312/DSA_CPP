@@ -11,4 +11,4 @@ int main()
    cout << *p;
    cout << **p1;
     return 0;
-} 
+}  
