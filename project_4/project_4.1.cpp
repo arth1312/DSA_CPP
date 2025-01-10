@@ -43,12 +43,10 @@ void calculator()
                 break;
             
             case 4:
-                if (second != 0)
                     cout << "Division of " << first << " and " << second << " is " << first / second << endl << endl;
                 break;
             
             case 5:
-                if (second != 0)
                     cout << "Modulus of " << first << " and " << second << " is " << first % second << endl << endl;
                 break;
             
