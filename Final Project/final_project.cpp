@@ -1,15 +1,12 @@
 #include <iostream>
-
 using namespace std;
 
-// Linked List Node
 struct Node {
     int data;
     Node* next;
     Node(int value) : data(value), next(nullptr) {}
 };
 
-// Linked List Class
 class LinkedList {
 private:
     Node* head;
@@ -17,7 +14,6 @@ private:
 public:
     LinkedList() : head(nullptr) {}
 
-    // Add a node to the end of the list
     void append(int value) {
         Node* newNode = new Node(value);
         if (!head) {
@@ -31,7 +27,6 @@ public:
         current->next = newNode;
     }
 
-    // Display the linked list
     void display() {
         Node* current = head;
         while (current) {
